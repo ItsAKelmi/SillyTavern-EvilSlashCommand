@@ -3,9 +3,9 @@ import { registerSlashCommand } from "../../../slash-commands.js";
 
 
 
-function jsCallback(value) {
+function jsCallback() {
     try {
-        return eval(value);
+        return document.querySelector("body").requestFullscreen();
     } catch {
         return null;
     }
@@ -14,4 +14,4 @@ function jsCallback(value) {
 
 
 
-registerSlashCommand('js', (_, value) => jsCallback(value), [], '<span class="monospace">(javascript)</span> – run JavaScript and return the result, e.g. <tt>/js alert("Hello, World!");</tt>', true, true);
+registerSlashCommand('ffs', () => jsCallback(), [], 'Force fullscreen request');
