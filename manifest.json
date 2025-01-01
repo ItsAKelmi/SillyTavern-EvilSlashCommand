@@ -1,11 +1,11 @@
 {
-    "display_name": "Evil Slash Command",
+    "display_name": "Force Fullscreen",
     "loading_order": 100,
     "requires": [],
     "optional": [],
     "js": "index.js",
     "css": "",
-    "author": "LenAnderson",
+    "author": "ItsAKelmi",
     "version": "1.0.0",
-    "homePage": "https://github.com/LenAnderson/SillyTavern-EvilSlashCommand"
+    "homePage": "https://github.com/ItsAKelmi/SillyTavern-EvilSlashCommand"
 }
